@@ -4,6 +4,7 @@
 body{
 background-color: #E5E5E5;
 font-family: 'Poppins', sans-serif;
+margin: 0;
 }
 
 /* common style  */
@@ -20,7 +21,32 @@ main{
     padding: 30px;
     margin-top: 21px;
 }
-/* top Player */
+/*------ Navbar --------*/
+.menu{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    width: 60%;
+    margin: 0 auto;
+
+    
+}
+/* ul{
+    wi
+    margin: 0 auto;
+} */
+ul>li{
+    list-style: none;
+}
+li>a{
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+/*---------top Player-------*/
 .top-players{
     margin-bottom: 30px;
 }
@@ -90,7 +116,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
-    justify-items: center
+    justify-items: center;
 }
 
 .course-info{
